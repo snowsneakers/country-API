@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Mono", monospace;
+  text-transform: uppercase;
+}
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  background: #191919;
+  color: rgb(231, 230, 220);
+  position: relative;
+  overflow-x: hidden;
+}
+.cardGrid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  position: absolute;
+  top: 10%;
+  right: 0;
+  left: 0;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 5vw;
+  text-align: center;
+}
+h2 {
+  font-size: 2rem;
+}
+.input {
+  padding: 2rem;
+}
+input {
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+}
+input::placeholder {
+  color: black;
+}
